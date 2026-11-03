@@ -1,0 +1,505 @@
+.review-inbox {
+  margin: 23px 0 27px;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #e3e8f1;
+  border-radius: 17px;
+  box-shadow: 0 3px 14px #142d4910;
+}
+
+.review-inbox button {
+  font: inherit;
+  cursor: pointer;
+}
+
+.review-inbox .inbox-top {
+  padding: 23px 25px 20px;
+  border-bottom: 1px solid #e8edf4;
+  background: linear-gradient(112deg, #f8faff, #fff);
+}
+
+.review-inbox .inbox-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.review-inbox h2 {
+  font-size: 20px;
+  margin: 0 0 6px;
+  letter-spacing: -0.45px;
+}
+
+.review-inbox p {
+  max-width: 880px;
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.7;
+  color: #64748b;
+}
+
+.review-inbox .inbox-isolation {
+  padding: 8px 11px;
+  border: 1px solid #b9e3d2;
+  border-radius: 999px;
+  background: #eefaf5;
+  color: #286b59;
+  font-size: 11px;
+  font-weight: 750;
+  white-space: nowrap;
+}
+
+.review-inbox .inbox-metrics {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.review-inbox .inbox-metric {
+  min-width: 125px;
+  padding-right: 20px;
+  border-right: 1px solid #e0e7f0;
+}
+
+.review-inbox .inbox-metric:last-child {
+  border: 0;
+}
+
+.review-inbox .inbox-metric strong {
+  display: block;
+  font-size: 19px;
+  color: #152a49;
+  font-variant-numeric: tabular-nums;
+}
+
+.review-inbox .inbox-metric small {
+  font-size: 11px;
+  color: #64748b;
+}
+
+.review-inbox .inbox-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 16px 24px 0;
+}
+
+.review-inbox .inbox-tab {
+  padding: 11px 15px;
+  border: 1px solid #dae3f1;
+  border-radius: 10px;
+  background: #fff;
+  color: #52627a;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.review-inbox .inbox-tab.active {
+  background: #415de0;
+  border-color: #415de0;
+  color: #fff;
+}
+
+.review-inbox .inbox-pane {
+  padding: 18px 24px 24px;
+}
+
+.review-inbox .inbox-pane[hidden] {
+  display: none;
+}
+
+.review-inbox .inbox-hint {
+  margin-bottom: 15px;
+  padding: 12px 15px;
+  border: 1px solid #e1e7f1;
+  border-radius: 11px;
+  background: #f8fafe;
+  color: #596c88;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.review-inbox .inbox-toolbar {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.review-inbox .inbox-toolbar input {
+  flex: 1;
+  min-width: 220px;
+}
+
+.review-inbox .inbox-toolbar select {
+  min-width: 135px;
+}
+
+.review-inbox input,
+.review-inbox select {
+  padding: 10px;
+  border: 1px solid #dfe5ee;
+  border-radius: 10px;
+  background: #fff;
+  color: #17233c;
+}
+
+.review-inbox .inbox-export {
+  padding: 10px 12px;
+  border: 1px solid #d8e1f0;
+  border-radius: 10px;
+  background: #fff;
+  color: #3753a2;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.review-inbox .inbox-tablewrap {
+  max-height: 560px;
+  overflow: auto;
+  border: 1px solid #e4e8f0;
+  border-radius: 12px;
+}
+
+.review-inbox table {
+  width: 100%;
+  min-width: 1100px;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+.review-inbox th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  padding: 14px;
+  background: #f3f6fa;
+  color: #52617c;
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.review-inbox td {
+  padding: 13px 14px;
+  border-top: 1px solid #eef0f5;
+  vertical-align: top;
+}
+
+.review-inbox td .muted {
+  font-size: 11px;
+  line-height: 1.5;
+  color: #70809a;
+}
+
+.review-inbox td .primary {
+  font-weight: 700;
+  line-height: 1.5;
+  color: #253858;
+}
+
+.review-inbox .inbox-evidence {
+  max-width: 285px;
+  font-size: 11px;
+  line-height: 1.4;
+  color: #6a7992;
+}
+
+.review-inbox .inbox-evidence details {
+  margin-top: 5px;
+}
+
+.review-inbox .inbox-evidence summary {
+  cursor: pointer;
+  color: #3a5aaa;
+}
+
+.review-inbox .evidence-line {
+  margin: 6px 0 0;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.review-inbox .inbox-review-select {
+  min-width: 130px;
+  padding: 8px;
+  font-size: 12px;
+}
+
+.review-inbox .inbox-review-note {
+  width: 190px;
+  min-width: 190px;
+  padding: 8px;
+  font-size: 12px;
+}
+
+.review-inbox .inbox-count {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #697b94;
+}
+
+.review-inbox .inbox-tag {
+  display: inline-block;
+  padding: 5px 9px;
+  border: 1px solid #dce5f2;
+  border-radius: 20px;
+  background: #f4f7fd;
+  color: #42567b;
+  font-size: 11px;
+  font-weight: 650;
+  white-space: nowrap;
+}
+
+.review-inbox .inbox-empty {
+  margin-top: 15px;
+  padding: 22px 18px;
+  border: 1px dashed #c9d6e8;
+  border-radius: 11px;
+  background: #fbfcff;
+  color: #586c86;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.review-inbox .inbox-subtitle {
+  margin: 21px 0 9px;
+  font-size: 14px;
+  font-weight: 780;
+}
+
+.review-inbox .inbox-footer {
+  margin-top: 11px;
+  font-size: 11px;
+  color: #75839a;
+}
+
+/* New Wise transactions pane */
+.review-inbox .wise-new-pane .inbox-tablewrap {
+  max-height: 710px;
+}
+
+.review-inbox .wise-new-pane table {
+  min-width: 1560px;
+}
+
+.review-inbox .wise-new-pane td {
+  min-width: 90px;
+}
+
+.review-inbox .wise-merchant {
+  max-width: 260px;
+  font-weight: 780;
+  overflow-wrap: anywhere;
+}
+
+.review-inbox .wise-charge {
+  margin-top: 2px;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.review-inbox .wise-source {
+  max-width: 255px;
+  font-size: 10px;
+  line-height: 1.6;
+  color: #6a7890;
+  overflow-wrap: anywhere;
+}
+
+.review-inbox .wise-amount {
+  font-weight: 850;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.review-inbox .wise-reviewed {
+  width: 150px;
+  padding: 7px;
+}
+
+.review-inbox .wise-notes {
+  width: 175px;
+  padding: 7px;
+}
+
+.review-inbox .wise-pill {
+  display: inline-flex;
+  max-width: 210px;
+  padding: 4px 7px;
+  border: 1px solid #dce5f0;
+  border-radius: 7px;
+  background: #f2f5fc;
+  color: #41577e;
+  font-size: 10px;
+  font-weight: 750;
+  white-space: normal;
+}
+
+.review-inbox .wise-pill.negative {
+  background: #eef8f6;
+  border-color: #c6e5dc;
+  color: #1f7864;
+}
+
+.review-inbox .wise-pill.excluded {
+  background: #fff6e9;
+  border-color: #f1dec0;
+  color: #926b24;
+}
+
+.review-inbox .wise-new-pane details summary {
+  margin-top: 5px;
+  cursor: pointer;
+  color: #3557a2;
+  font-size: 11px;
+}
+
+.review-inbox .wise-new-pane details div {
+  max-width: 300px;
+  margin-top: 5px;
+  font-size: 11px;
+  line-height: 1.5;
+  color: #61718c;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.review-inbox .wise-review-flag {
+  display: block;
+  margin-top: 3px;
+  font-size: 10px;
+  color: #8d6325;
+}
+
+.review-inbox .wise-inbox-help {
+  margin: 10px 0 0;
+  font-size: 11px;
+  color: #718097;
+}
+
+.review-inbox .inbox-upload__button {
+  padding: 11px 16px;
+  border-color: #415de0;
+  background: #415de0;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.review-inbox .inbox-upload__button:hover:not(:disabled) {
+  background: #354fc4;
+}
+
+.review-inbox .inbox-upload__button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.review-inbox .inbox-message {
+  margin-top: 14px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.review-inbox .inbox-message--success {
+  border: 1px solid #b9e3d2;
+  background: #eefaf5;
+  color: #286b59;
+}
+
+.review-inbox .inbox-message--error {
+  border: 1px solid #fecaca;
+  background: #fef2f2;
+  color: #b91c1c;
+}
+
+.review-inbox .wise-trip {
+  width: 190px;
+  padding: 7px;
+  font-size: 12px;
+}
+
+.review-inbox .wise-amount-input {
+  width: 105px;
+  padding: 7px;
+  font-weight: 750;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.review-inbox .wise-notes {
+  width: 210px;
+}
+
+.review-inbox .wise-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 140px;
+}
+
+/* Keep the row actions visible while the wide table scrolls sideways. */
+.review-inbox .wise-new-pane td:last-child,
+.review-inbox .wise-new-pane th:last-child {
+  position: sticky;
+  right: 0;
+  box-shadow: -8px 0 8px -8px #1d33523a;
+}
+
+.review-inbox .wise-new-pane td:last-child {
+  background: #fff;
+}
+
+.review-inbox .wise-new-pane th:last-child {
+  z-index: 3;
+}
+
+.review-inbox .wise-actions button {
+  padding: 8px 10px;
+  font-size: 12px;
+}
+
+.review-inbox .wise-actions .wise-include {
+  border-color: #1f7864;
+  background: #1f7864;
+  color: #fff;
+}
+
+.review-inbox .wise-actions .wise-include:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.review-inbox .wise-actions .wise-remove {
+  border-color: #fecaca;
+  color: #b91c1c;
+}
+
+@media (max-width: 650px) {
+  .review-inbox .inbox-top {
+    padding: 18px;
+  }
+
+  .review-inbox .inbox-tabs {
+    padding: 14px 15px 0;
+  }
+
+  .review-inbox .inbox-pane {
+    padding: 14px;
+  }
+
+  .review-inbox .inbox-metric {
+    min-width: 95px;
+  }
+}

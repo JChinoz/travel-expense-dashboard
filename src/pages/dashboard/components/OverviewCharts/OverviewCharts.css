@@ -1,0 +1,28 @@
+.layout {
+  display: grid;
+  grid-template-columns: 1.65fr 1fr;
+  gap: 18px;
+  align-items: start;
+}
+
+.side {
+  display: grid;
+  gap: 18px;
+  align-content: start;
+}
+
+@media (max-width: 1000px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+
+  .side {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .side {
+    grid-template-columns: 1fr;
+  }
+}

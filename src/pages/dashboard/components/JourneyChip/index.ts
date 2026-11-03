@@ -1,0 +1,1 @@
+export { JourneyChip } from './JourneyChip';

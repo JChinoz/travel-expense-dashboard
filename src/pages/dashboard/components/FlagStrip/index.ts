@@ -1,0 +1,1 @@
+export { FlagStrip } from './FlagStrip';

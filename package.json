@@ -1,0 +1,30 @@
+{
+  "name": "travel-expense-dashboard",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:demo": "DATA_MODE=demo vite",
+    "build": "tsc -b && vite build",
+    "build:demo": "tsc -b && DATA_MODE=demo vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^7.18.5",
+    "read-excel-file": "^9.3.14"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.2.1",
+    "typescript": "~5.9.3",
+    "vite": "^8.3.5",
+    "vitest": "^5.1.0"
+  }
+}

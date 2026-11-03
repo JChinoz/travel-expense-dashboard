@@ -1,0 +1,9 @@
+.data-quality {
+  margin-top: 18px;
+  padding: 15px 17px;
+  border: 1px solid #e6e9f1;
+  border-radius: 12px;
+  background: #fbfcfe;
+  color: var(--muted);
+  font-size: 12px;
+}

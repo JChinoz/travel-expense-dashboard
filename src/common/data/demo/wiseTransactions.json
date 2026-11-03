@@ -1,0 +1,152 @@
+[
+ {
+  "id": "CARD-9000000001",
+  "date": "2024-03-09",
+  "amount": -38,
+  "currency": "MYR",
+  "description": "Card transaction of 38.00 MYR issued by Demo Noodle House KUALA LUMPUR",
+  "merchant": "Demo Noodle House KUALA LUMPUR",
+  "fees": 0,
+  "source": "statement_00000001_MYR_2024-01-01_2025-12-31.xlsx"
+ },
+ {
+  "id": "CARD-9000000002",
+  "date": "2024-03-09",
+  "amount": -24.5,
+  "currency": "MYR",
+  "description": "Card transaction of 24.50 MYR issued by Demo Ride Hailing KUALA LUMPUR",
+  "merchant": "Demo Ride Hailing KUALA LUMPUR",
+  "fees": 0,
+  "source": "statement_00000001_MYR_2024-01-01_2025-12-31.xlsx"
+ },
+ {
+  "id": "CARD-9000000003",
+  "date": "2024-03-10",
+  "amount": -260,
+  "currency": "MYR",
+  "description": "Card transaction of 260.00 MYR issued by Demo Mall KUALA LUMPUR",
+  "merchant": "Demo Mall KUALA LUMPUR",
+  "fees": 0,
+  "source": "statement_00000001_MYR_2024-01-01_2025-12-31.xlsx"
+ },
+ {
+  "id": "CARD-9000000004",
+  "date": "2024-03-10",
+  "amount": -15,
+  "currency": "MYR",
+  "description": "Card transaction of 15.00 MYR issued by Demo Cafe KUALA LUMPUR",
+  "merchant": "Demo Cafe KUALA LUMPUR",
+  "fees": 0,
+  "source": "statement_00000001_MYR_2024-01-01_2025-12-31.xlsx"
+ },
+ {
+  "id": "CARD-9000000005",
+  "date": "2025-04-03",
+  "amount": -1200,
+  "currency": "JPY",
+  "description": "Card transaction of 1,200.00 JPY issued by Demo Ramen Shibuya TOKYO",
+  "merchant": "Demo Ramen Shibuya TOKYO",
+  "fees": 0,
+  "source": "statement_00000002_JPY_2024-01-01_2025-12-31.xlsx"
+ },
+ {
+  "id": "CARD-9000000006",
+  "date": "2025-04-04",
+  "amount": -650,
+  "currency": "JPY",
+  "description": "Card transaction of 650.00 JPY issued by Demo Convenience Store TOKYO",
+  "merchant": "Demo Convenience Store TOKYO",
+  "fees": 0,
+  "source": "statement_00000002_JPY_2024-01-01_2025-12-31.xlsx"
+ },
+ {
+  "id": "CARD-9000000007",
+  "date": "2025-04-06",
+  "amount": -18000,
+  "currency": "JPY",
+  "description": "Card transaction of 18,000.00 JPY issued by Demo Department Store TOKYO",
+  "merchant": "Demo Department Store TOKYO",
+  "fees": 0,
+  "source": "statement_00000002_JPY_2024-01-01_2025-12-31.xlsx"
+ },
+ {
+  "id": "CARD-9000000008",
+  "date": "2025-04-07",
+  "amount": -800,
+  "currency": "JPY",
+  "description": "Card transaction of 800.00 JPY issued by Demo Metro TOKYO",
+  "merchant": "Demo Metro TOKYO",
+  "fees": 0,
+  "source": "statement_00000002_JPY_2024-01-01_2025-12-31.xlsx"
+ },
+ {
+  "id": "CARD-9000000009",
+  "date": "2025-08-16",
+  "amount": -88,
+  "currency": "SGD",
+  "description": "Card transaction of 88.00 SGD issued by Demo Seafood Restaurant SINGAPORE",
+  "merchant": "Demo Seafood Restaurant SINGAPORE",
+  "fees": 0,
+  "source": "statement_00000003_SGD_2024-01-01_2025-12-31.xlsx"
+ },
+ {
+  "id": "BALANCE-9100000001",
+  "date": "2024-03-07",
+  "amount": 155,
+  "currency": "SGD",
+  "description": "Converted 500.00 MYR to 155.00 SGD",
+  "merchant": "",
+  "fees": 0,
+  "source": "statement_00000003_SGD_2024-01-01_2025-12-31.xlsx"
+ },
+ {
+  "id": "BALANCE-9100000002",
+  "date": "2025-04-01",
+  "amount": 1000,
+  "currency": "SGD",
+  "description": "Converted 108,000.00 JPY to 1,000.00 SGD",
+  "merchant": "",
+  "fees": 0,
+  "source": "statement_00000003_SGD_2024-01-01_2025-12-31.xlsx"
+ },
+ {
+  "id": "TRANSFER-9200000001",
+  "date": "2024-03-06",
+  "amount": 1000,
+  "currency": "SGD",
+  "description": "Topped up account",
+  "merchant": "",
+  "fees": 0,
+  "source": "statement_00000003_SGD_2024-01-01_2025-12-31.xlsx"
+ },
+ {
+  "id": "TRANSFER-9200000002",
+  "date": "2025-03-30",
+  "amount": 1500,
+  "currency": "SGD",
+  "description": "Topped up account",
+  "merchant": "",
+  "fees": 0,
+  "source": "statement_00000003_SGD_2024-01-01_2025-12-31.xlsx"
+ },
+ {
+  "id": "CARD-9000000020",
+  "date": "2025-06-01",
+  "amount": -9.99,
+  "currency": "SGD",
+  "description": "Card transaction of 9.99 SGD issued by Demo Streaming Service",
+  "merchant": "Demo Streaming Service",
+  "fees": 0,
+  "source": "statement_00000003_SGD_2024-01-01_2025-12-31.xlsx"
+ },
+ {
+  "id": "FEE-CARD-9000000020",
+  "date": "2025-06-01",
+  "amount": -0.05,
+  "currency": "SGD",
+  "description": "Wise Charges for: CARD-9000000020",
+  "merchant": "Demo Streaming Service",
+  "fees": 0,
+  "source": "statement_00000003_SGD_2024-01-01_2025-12-31.xlsx"
+ }
+]

@@ -1,0 +1,66 @@
+:root {
+  --bg: #f7f8fc;
+  --surface: #fff;
+  --ink: #17223b;
+  --muted: #718096;
+  --line: #e9edf5;
+  --blue: #5266d9;
+  --teal: #16a394;
+  --orange: #f5a544;
+  --purple: #9878df;
+  --red: #dc6876;
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(ellipse at 5% 0%, #eef1ff 0, transparent 34%), var(--bg);
+  font: 14px/1.45 Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  color: var(--ink);
+}
+
+p {
+  margin: 0;
+  color: var(--muted);
+}
+
+button {
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  background: #fff;
+  padding: 8px 12px;
+  cursor: pointer;
+  color: var(--ink);
+  font-weight: 700;
+  font-family: inherit;
+}
+
+button:hover:not(:disabled) {
+  border-color: var(--blue);
+}
+
+select,
+input {
+  font-family: inherit;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  box-shadow: 0 5px 25px #1c31540a;
+}
+
+.table-scroll {
+  overflow-x: auto;
+}
+
+.empty {
+  padding: 28px;
+  color: var(--muted);
+  text-align: center;
+}

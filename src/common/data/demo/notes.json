@@ -1,0 +1,15 @@
+{
+ "excludedWiseTransactions": 1,
+ "pendingBookingsSubtitle": "Demo data: unpriced bookings appear in their trip timelines without contributing to totals.",
+ "verificationIntro": "This is a fictional demo dataset. Nothing here describes a real person or trip.",
+ "verificationItems": [
+  {
+   "label": "Unpriced bookings:",
+   "text": "the demo observatory tickets have no verified price (shown in red)."
+  },
+  {
+   "label": "Everything else:",
+   "text": "names, bookings and amounts are made up."
+  }
+ ]
+}

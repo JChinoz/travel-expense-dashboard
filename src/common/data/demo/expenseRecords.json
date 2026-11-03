@@ -1,0 +1,351 @@
+[
+ {
+  "id": "exp-0001",
+  "tripId": 0,
+  "tripOrder": 0,
+  "date": "2024-03-08",
+  "endDate": "2024-03-11",
+  "category": "Flight",
+  "description": "Singapore ↔ Kuala Lumpur — Demo Air",
+  "amount": 168.4,
+  "journeyType": "Return trip",
+  "legs": [
+   {
+    "date": "2024-03-08",
+    "route": "Singapore (SIN) => Kuala Lumpur (KUL)"
+   },
+   {
+    "date": "2024-03-11",
+    "route": "Kuala Lumpur (KUL) => Singapore (SIN)"
+   }
+  ],
+  "booking": "DEMO01",
+  "status": "Outlook email + PDF verified",
+  "sources": [
+   {
+    "type": "Demo Air",
+    "label": "Demo Air booking — DEMO01",
+    "note": "Fictional booking confirmation."
+   }
+  ]
+ },
+ {
+  "id": "exp-0002",
+  "tripId": 0,
+  "tripOrder": 1,
+  "date": "2024-03-08",
+  "endDate": "2024-03-11",
+  "category": "Hotel",
+  "description": "Demo Hotel Kuala Lumpur",
+  "amount": 212.5,
+  "journeyType": "Hotel stay",
+  "booking": "10000000001",
+  "status": "Booking number matched",
+  "sources": [
+   {
+    "type": "Trip.com",
+    "label": "Trip.com — Traveller A, booking 10000000001",
+    "note": "Fictional demo booking."
+   }
+  ]
+ },
+ {
+  "id": "exp-0003",
+  "tripId": 0,
+  "tripOrder": 2,
+  "date": "2024-03-09",
+  "category": "Food & Dining",
+  "description": "Demo Noodle House KUALA LUMPUR · Wise card (38.00 MYR)",
+  "amount": 11.84,
+  "journeyType": "On-trip expense",
+  "booking": "CARD-9000000001",
+  "status": "Wise transaction matched",
+  "sources": [
+   {
+    "type": "Wise statement",
+    "label": "statement_00000001_MYR_2024-01-01_2025-12-31.xlsx",
+    "note": "Wise CARD-transaction ID CARD-9000000001; original 38.00 MYR. SGD contribution S$11.84. Fictional demo row."
+   }
+  ]
+ },
+ {
+  "id": "exp-0004",
+  "tripId": 0,
+  "tripOrder": 3,
+  "date": "2024-03-09",
+  "category": "Transport",
+  "description": "Demo Ride Hailing KUALA LUMPUR · Wise card (24.50 MYR)",
+  "amount": 7.6,
+  "journeyType": "On-trip expense",
+  "booking": "CARD-9000000002",
+  "status": "Wise transaction matched",
+  "sources": [
+   {
+    "type": "Wise statement",
+    "label": "statement_00000001_MYR_2024-01-01_2025-12-31.xlsx",
+    "note": "Wise CARD-transaction ID CARD-9000000002; original 24.50 MYR. SGD contribution S$7.60. Fictional demo row."
+   }
+  ]
+ },
+ {
+  "id": "exp-0005",
+  "tripId": 0,
+  "tripOrder": 4,
+  "date": "2024-03-10",
+  "category": "Shopping",
+  "description": "Demo Mall KUALA LUMPUR · Wise card (260.00 MYR)",
+  "amount": 80.6,
+  "journeyType": "On-trip expense",
+  "booking": "CARD-9000000003",
+  "status": "Wise transaction matched",
+  "sources": [
+   {
+    "type": "Wise statement",
+    "label": "statement_00000001_MYR_2024-01-01_2025-12-31.xlsx",
+    "note": "Wise CARD-transaction ID CARD-9000000003; original 260.00 MYR. SGD contribution S$80.60. Fictional demo row."
+   }
+  ]
+ },
+ {
+  "id": "exp-0006",
+  "tripId": 0,
+  "tripOrder": 5,
+  "date": "2024-03-10",
+  "category": "Other",
+  "description": "Demo Cafe KUALA LUMPUR · Wise card (15.00 MYR)",
+  "amount": 4.65,
+  "journeyType": "On-trip expense",
+  "booking": "CARD-9000000004",
+  "status": "Wise transaction matched",
+  "sources": [
+   {
+    "type": "Wise statement",
+    "label": "statement_00000001_MYR_2024-01-01_2025-12-31.xlsx",
+    "note": "Wise CARD-transaction ID CARD-9000000004; original 15.00 MYR. SGD contribution S$4.65. Fictional demo row."
+   }
+  ]
+ },
+ {
+  "id": "exp-0007",
+  "tripId": 1,
+  "tripOrder": 0,
+  "date": "2025-04-02",
+  "endDate": "2025-04-09",
+  "category": "Flight",
+  "description": "Singapore ↔ Tokyo — Demo Air",
+  "amount": 842,
+  "journeyType": "Return trip",
+  "legs": [
+   {
+    "date": "2025-04-02",
+    "route": "Singapore (SIN) => Tokyo (NRT)"
+   },
+   {
+    "date": "2025-04-09",
+    "route": "Tokyo (NRT) => Singapore (SIN)"
+   }
+  ],
+  "booking": "DEMO02",
+  "status": "Outlook PDF verified",
+  "sources": [
+   {
+    "type": "Demo Air",
+    "label": "Demo Air booking — DEMO02",
+    "note": "Fictional booking confirmation."
+   }
+  ]
+ },
+ {
+  "id": "exp-0008",
+  "tripId": 1,
+  "tripOrder": 1,
+  "date": "2025-04-02",
+  "endDate": "2025-04-09",
+  "category": "Hotel",
+  "description": "Demo Hotel Shinjuku",
+  "amount": 1120.3,
+  "journeyType": "Hotel stay",
+  "booking": "10000000002",
+  "status": "Author-verified (Agoda booking)",
+  "sources": [
+   {
+    "type": "Agoda",
+    "label": "Agoda booking 10000000002",
+    "note": "Fictional demo booking."
+   }
+  ]
+ },
+ {
+  "id": "exp-0009",
+  "tripId": 1,
+  "tripOrder": 2,
+  "date": "2025-04-04",
+  "category": "Attraction",
+  "description": "Demo Observatory tickets · 2 adults; price not on voucher",
+  "amount": 0,
+  "amountUnknown": true,
+  "journeyType": "Attraction",
+  "booking": "DEMO03",
+  "status": "Needs source review",
+  "sources": [
+   {
+    "type": "Outlook",
+    "label": "Outlook attachment: demo-voucher.pdf",
+    "note": "Fictional voucher without a price."
+   }
+  ]
+ },
+ {
+  "id": "exp-0010",
+  "tripId": 1,
+  "tripOrder": 3,
+  "date": "2025-04-05",
+  "category": "Train",
+  "description": "Demo Rail Pass · 7 days",
+  "amount": 95.2,
+  "journeyType": "Train",
+  "booking": "DEMO04",
+  "status": "Booking number matched",
+  "sources": [
+   {
+    "type": "Trip.com",
+    "label": "Trip.com booking DEMO04",
+    "note": "Fictional demo booking."
+   }
+  ]
+ },
+ {
+  "id": "exp-0011",
+  "tripId": 1,
+  "tripOrder": 4,
+  "date": "2025-04-03",
+  "category": "Food & Dining",
+  "description": "Demo Ramen Shibuya TOKYO · Wise card (1,200.00 JPY)",
+  "amount": 11,
+  "journeyType": "On-trip expense",
+  "booking": "CARD-9000000005",
+  "status": "Wise transaction matched",
+  "sources": [
+   {
+    "type": "Wise statement",
+    "label": "statement_00000002_JPY_2024-01-01_2025-12-31.xlsx",
+    "note": "Wise CARD-transaction ID CARD-9000000005; original 1,200.00 JPY. SGD contribution S$11.00. Fictional demo row."
+   }
+  ]
+ },
+ {
+  "id": "exp-0012",
+  "tripId": 1,
+  "tripOrder": 5,
+  "date": "2025-04-04",
+  "category": "Food & Dining",
+  "description": "Demo Convenience Store TOKYO · Wise card (650.00 JPY)",
+  "amount": 5.95,
+  "journeyType": "On-trip expense",
+  "booking": "CARD-9000000006",
+  "status": "Wise transaction matched",
+  "sources": [
+   {
+    "type": "Wise statement",
+    "label": "statement_00000002_JPY_2024-01-01_2025-12-31.xlsx",
+    "note": "Wise CARD-transaction ID CARD-9000000006; original 650.00 JPY. SGD contribution S$5.95. Fictional demo row."
+   }
+  ]
+ },
+ {
+  "id": "exp-0013",
+  "tripId": 1,
+  "tripOrder": 6,
+  "date": "2025-04-06",
+  "category": "Shopping",
+  "description": "Demo Department Store TOKYO · Wise card (18,000.00 JPY)",
+  "amount": 165,
+  "journeyType": "On-trip expense",
+  "booking": "CARD-9000000007",
+  "status": "Wise transaction matched",
+  "sources": [
+   {
+    "type": "Wise statement",
+    "label": "statement_00000002_JPY_2024-01-01_2025-12-31.xlsx",
+    "note": "Wise CARD-transaction ID CARD-9000000007; original 18,000.00 JPY. SGD contribution S$165.00. Fictional demo row."
+   }
+  ]
+ },
+ {
+  "id": "exp-0014",
+  "tripId": 1,
+  "tripOrder": 7,
+  "date": "2025-04-07",
+  "category": "Transport",
+  "description": "Demo Metro TOKYO · Wise card (800.00 JPY)",
+  "amount": 7.35,
+  "journeyType": "On-trip expense",
+  "booking": "CARD-9000000008",
+  "status": "Wise transaction matched",
+  "sources": [
+   {
+    "type": "Wise statement",
+    "label": "statement_00000002_JPY_2024-01-01_2025-12-31.xlsx",
+    "note": "Wise CARD-transaction ID CARD-9000000008; original 800.00 JPY. SGD contribution S$7.35. Fictional demo row."
+   }
+  ]
+ },
+ {
+  "id": "exp-0015",
+  "tripId": 2,
+  "tripOrder": 0,
+  "date": "2025-08-15",
+  "endDate": "2025-08-17",
+  "category": "Hotel",
+  "description": "Demo Resort Sentosa",
+  "amount": 480,
+  "journeyType": "Hotel stay",
+  "booking": "DEMO05",
+  "status": "Wise merchant/date/amount corroborated",
+  "sources": [
+   {
+    "type": "Wise",
+    "label": "statement_00000003_SGD_2024-01-01_2025-12-31.xlsx",
+    "note": "Fictional demo match."
+   }
+  ]
+ },
+ {
+  "id": "exp-0016",
+  "tripId": 2,
+  "tripOrder": 1,
+  "date": "2025-08-16",
+  "category": "Attraction",
+  "description": "Demo Aquarium tickets",
+  "amount": 120,
+  "journeyType": "Attraction",
+  "booking": "DEMO06",
+  "status": "Outlook email verified",
+  "sources": [
+   {
+    "type": "Outlook",
+    "label": "Outlook email — demo tickets",
+    "note": "Fictional demo email."
+   }
+  ]
+ },
+ {
+  "id": "exp-0017",
+  "tripId": 2,
+  "tripOrder": 2,
+  "date": "2025-08-16",
+  "category": "Food & Dining",
+  "description": "Demo Seafood Restaurant SINGAPORE · Wise card (88.00 SGD)",
+  "amount": 88,
+  "journeyType": "On-trip expense",
+  "booking": "CARD-9000000009",
+  "status": "Wise transaction matched",
+  "sources": [
+   {
+    "type": "Wise statement",
+    "label": "statement_00000003_SGD_2024-01-01_2025-12-31.xlsx",
+    "note": "Wise CARD-transaction ID CARD-9000000009; original 88.00 SGD. SGD contribution S$88.00. Fictional demo row."
+   }
+  ]
+ }
+]

@@ -1,0 +1,123 @@
+.trip-chart {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.trip-bars {
+  flex: 1 1 0;
+  min-height: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-right: 5px;
+}
+
+.tripbar {
+  display: grid;
+  grid-template-columns: 190px 1fr 95px;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 15px;
+  padding: 8px 6px;
+  border-radius: 9px;
+  cursor: pointer;
+  transition: background-color 0.16s ease;
+}
+
+.tripbar:hover {
+  background: #e9eefb;
+}
+
+.tripbar:hover .barlabel {
+  color: var(--blue);
+}
+
+.barlabel {
+  font-size: 12px;
+  font-weight: 650;
+  line-height: 1.5;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.barlabel small {
+  display: block;
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.track {
+  display: flex;
+  height: 14px;
+  border-radius: 5px;
+  background: #eef2f8;
+  overflow: hidden;
+}
+
+.seg {
+  height: 100%;
+  min-width: 0;
+}
+
+.baramount {
+  text-align: right;
+  font-size: 12px;
+  font-weight: 750;
+  font-variant-numeric: tabular-nums;
+}
+
+.legend {
+  display: flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding-top: 13px;
+}
+
+.legend span {
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.dot {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 3px;
+  margin-right: 6px;
+}
+
+@media (max-width: 1000px) {
+  .trip-chart {
+    overflow: visible;
+  }
+
+  .trip-bars {
+    flex: 0 1 auto;
+    max-height: 470px;
+  }
+
+  .tripbar {
+    grid-template-columns: 170px 1fr 90px;
+  }
+
+  .legend {
+    margin-top: 15px;
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .tripbar {
+    grid-template-columns: 115px 1fr 76px;
+    gap: 7px;
+  }
+
+  .baramount,
+  .barlabel {
+    font-size: 11px;
+  }
+}

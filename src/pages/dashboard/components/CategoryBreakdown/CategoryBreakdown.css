@@ -1,0 +1,29 @@
+.catrow {
+  display: grid;
+  grid-template-columns: 95px 1fr 90px;
+  align-items: center;
+  gap: 10px;
+  margin: 13px 0;
+}
+
+.catrow span {
+  font-size: 12px;
+}
+
+.catrow strong {
+  font-size: 12px;
+  text-align: right;
+}
+
+.catrow__track {
+  display: flex;
+  height: 9px;
+  border-radius: 5px;
+  background: #eef2f8;
+  overflow: hidden;
+}
+
+.catrow__fill {
+  height: 100%;
+  min-width: 0;
+}

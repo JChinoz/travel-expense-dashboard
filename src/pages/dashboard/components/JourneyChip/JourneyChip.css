@@ -1,0 +1,55 @@
+.journey-chip {
+  display: inline-block;
+  padding: 3px 6px;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  background: #eef2ff;
+  color: #4258a5;
+  font-size: 10px;
+  font-weight: 750;
+}
+
+.journey-chip[data-journey='return-trip'],
+.journey-chip[data-journey='return-multi-city'] {
+  background: #dbeafe;
+  color: #1d4ed8;
+  border-color: #bfdbfe;
+}
+
+.journey-chip[data-journey='one-way-leg'],
+.journey-chip[data-journey='domestic-connection'],
+.journey-chip[data-journey='international-connection'] {
+  background: #e0e7ff;
+  color: #4338ca;
+  border-color: #c7d2fe;
+}
+
+.journey-chip[data-journey='hotel-stay'] {
+  background: #ccfbf1;
+  color: #0f766e;
+  border-color: #99f6e4;
+}
+
+.journey-chip[data-journey='car-rental'] {
+  background: #ffedd5;
+  color: #c2410c;
+  border-color: #fed7aa;
+}
+
+.journey-chip[data-journey='attraction'] {
+  background: #fce7f3;
+  color: #be185d;
+  border-color: #fbcfe8;
+}
+
+.journey-chip[data-journey='train'] {
+  background: #fef3c7;
+  color: #92400e;
+  border-color: #fde68a;
+}
+
+.journey-chip[data-journey='transport'] {
+  background: #f3e8ff;
+  color: #7e22ce;
+  border-color: #e9d5ff;
+}

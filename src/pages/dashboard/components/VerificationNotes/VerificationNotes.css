@@ -1,0 +1,25 @@
+.verification-audit {
+  margin-top: 18px;
+  padding: 15px 18px;
+  border: 1px solid #fecaca;
+  border-radius: 12px;
+  background: #fffafa;
+}
+
+.verification-audit h3 {
+  margin: 0 0 9px;
+  color: #991b1b;
+}
+
+.verification-audit p {
+  margin: 0 0 8px;
+}
+
+.verification-audit li {
+  margin: 7px 0;
+  line-height: 1.5;
+}
+
+.verification-audit strong {
+  color: #b91c1c;
+}

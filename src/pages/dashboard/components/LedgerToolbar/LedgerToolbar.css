@@ -1,0 +1,88 @@
+.ledger-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0 16px;
+  border-bottom: 1px solid var(--line);
+}
+
+.ledger-toolbar .tools-left,
+.ledger-toolbar .tools-right {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  flex-wrap: wrap;
+}
+
+.ledger-toolbar .tools-right {
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.ledger-toolbar label {
+  font-size: 12px;
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.ledger-toolbar select {
+  padding: 9px 10px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: white;
+  color: var(--ink);
+}
+
+.journey-inline {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+}
+
+.journey-inline select {
+  min-width: 145px;
+  max-width: 185px;
+}
+
+.view-toggle {
+  display: flex;
+  gap: 3px;
+  padding: 3px;
+  background: #f1f3f9;
+  border-radius: 11px;
+}
+
+.view-toggle button {
+  border: 0;
+  background: transparent;
+  padding: 8px 12px;
+  font-size: 12px;
+  color: #64728c;
+}
+
+.view-toggle button.active {
+  background: white;
+  box-shadow: 0 1px 6px #1524461c;
+  color: #354fc4;
+}
+
+@media (max-width: 900px) {
+  .ledger-toolbar .tools-right {
+      justify-content: flex-start;
+    }
+}
+
+@media (max-width: 760px) {
+  .ledger-toolbar {
+      align-items: flex-start;
+    }
+}
+
+@media (max-width: 600px) {
+  .journey-inline {
+      flex-wrap: wrap;
+    }
+}

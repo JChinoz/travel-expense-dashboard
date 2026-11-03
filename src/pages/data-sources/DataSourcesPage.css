@@ -1,0 +1,38 @@
+.data-sources {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 30px 22px 110px;
+  color: #152441;
+}
+
+.data-sources__head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.data-sources h1 {
+  font-size: 30px;
+  letter-spacing: -0.7px;
+  margin: 0 0 8px;
+}
+
+.data-sources__head p {
+  margin: 0 0 20px;
+  color: #6b7891;
+}
+
+.data-sources__head button {
+  white-space: nowrap;
+}
+
+@media (max-width: 650px) {
+  .data-sources {
+    padding: 18px 12px 90px;
+  }
+
+  .data-sources__head {
+    flex-direction: column;
+  }
+}

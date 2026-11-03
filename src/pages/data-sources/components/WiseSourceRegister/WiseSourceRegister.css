@@ -1,0 +1,58 @@
+.wise-register {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  overflow: auto;
+  padding: 24px;
+  background: #f7f9fd;
+  color: #172b4d;
+  font: 14px system-ui;
+}
+
+.wise-register__wrap {
+  max-width: 1300px;
+  margin: auto;
+}
+
+.wise-register p {
+  margin: 8px 0 15px;
+}
+
+.wise-register input,
+.wise-register select {
+  margin: 8px;
+  padding: 11px;
+  border: 1px solid #ccd5e3;
+  border-radius: 8px;
+}
+
+.wise-register button {
+  padding: 10px 16px;
+  border: 1px solid #ccd5e3;
+  border-radius: 8px;
+}
+
+.wise-register__scroller {
+  max-height: 68vh;
+  overflow: auto;
+}
+
+.wise-register table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  font-size: 12px;
+}
+
+.wise-register th,
+.wise-register td {
+  padding: 9px;
+  border-bottom: 1px solid #e6eaf2;
+  text-align: left;
+}
+
+.wise-register th {
+  position: sticky;
+  top: 0;
+  background: #eaf0f9;
+}

@@ -1,0 +1,35 @@
+.page-switcher {
+  position: fixed;
+  bottom: 18px;
+  right: 18px;
+  z-index: 9999;
+  display: flex;
+  gap: 8px;
+  background: #fff;
+  border: 1px solid #dfe5f0;
+  padding: 7px;
+  border-radius: 16px;
+  box-shadow: 0 8px 28px #1d335224;
+}
+
+.page-switcher a {
+  border-radius: 10px;
+  padding: 11px 15px;
+  font-size: 13.33px;
+  font-weight: 750;
+  color: #465673;
+  text-decoration: none;
+}
+
+.page-switcher a.on {
+  background: #405de6;
+  color: #fff;
+}
+
+@media (max-width: 650px) {
+  .page-switcher {
+    left: 12px;
+    right: 12px;
+    justify-content: center;
+  }
+}

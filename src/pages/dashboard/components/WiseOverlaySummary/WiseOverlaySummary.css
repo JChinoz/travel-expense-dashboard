@@ -1,0 +1,60 @@
+.wise-summary {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  flex-wrap: wrap;
+  margin: 2px 0 18px;
+  padding: 16px 19px;
+  background: #fff;
+  border: 1px solid #dfe6f0;
+  border-radius: 15px;
+}
+
+.wise-summary > div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 170px;
+}
+
+.wise-summary small {
+  font-size: 10px;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  color: #6c7c93;
+}
+
+.wise-summary strong {
+  font-size: 19px;
+  font-weight: 820;
+  color: #18304e;
+  font-variant-numeric: tabular-nums;
+}
+
+.wise-summary__symbol {
+  font-size: 23px;
+  color: #91a0b6;
+  font-weight: 600;
+}
+
+.wise-summary p {
+  width: 100%;
+  font-size: 11px;
+  color: #687993;
+  line-height: 1.65;
+  margin: 0;
+}
+
+@media (max-width: 650px) {
+  .wise-summary {
+    gap: 7px;
+  }
+
+  .wise-summary > div {
+    min-width: calc(50% - 25px);
+  }
+
+  .wise-summary strong {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,44 @@
+.panel {
+  padding: 23px;
+}
+
+.panel h2 {
+  font-size: 18px;
+  margin: 0 0 3px;
+  letter-spacing: -0.3px;
+}
+
+.panel h2::before {
+  content: '✦';
+  color: #7b87d8;
+  margin-right: 8px;
+  font-size: 15px;
+}
+
+.panel .sub {
+  font-size: 12px;
+  color: var(--muted);
+  margin-bottom: 20px;
+}
+
+.panel__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.panel__head .sub {
+  margin-bottom: 0;
+}
+
+.panel__head button {
+  white-space: nowrap;
+}
+
+@media (max-width: 700px) {
+  .panel {
+    padding: 17px;
+  }
+}

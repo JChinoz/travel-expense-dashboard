@@ -1,0 +1,82 @@
+.grouped-ledger {
+  display: grid;
+  gap: 11px;
+  margin-top: 14px;
+}
+
+.trip-group {
+  border: 1px solid var(--line);
+  border-radius: 15px;
+  overflow: hidden;
+  background: white;
+}
+
+.trip-group summary {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 15px 17px;
+  background: #fcfdff;
+  cursor: pointer;
+  list-style: none;
+  transition: background-color 0.16s ease;
+}
+
+.trip-group summary::-webkit-details-marker {
+  display: none;
+}
+
+.trip-group summary:hover {
+  background: #eaf0fc;
+}
+
+.group-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  min-width: 42px;
+  height: 38px;
+  padding: 0 6px;
+}
+
+.group-name {
+  font-weight: 800;
+  font-size: 13px;
+}
+
+.group-meta {
+  margin-top: 3px;
+  font-size: 11px;
+  color: #8a96a9;
+}
+
+.group-total {
+  margin-left: auto;
+  font-size: 14px;
+  font-weight: 850;
+  white-space: nowrap;
+}
+
+.chevron {
+  color: #8994a9;
+  transition: transform 0.15s;
+}
+
+.trip-group[open] .chevron {
+  transform: rotate(90deg);
+}
+
+.group-rows {
+  padding: 0 14px 10px;
+}
+
+@media (max-width: 760px) {
+  .trip-group summary {
+      padding: 12px 10px;
+    }
+
+  .group-total {
+      font-size: 12px;
+    }
+}

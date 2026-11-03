@@ -1,0 +1,29 @@
+.source-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin: 22px 0;
+}
+
+.source-stat {
+  padding: 18px;
+  border: 1px solid #e3e8f1;
+  border-radius: 16px;
+  background: #fff;
+}
+
+.source-stat strong {
+  display: block;
+  font-size: 25px;
+}
+
+.source-stat span {
+  font-size: 12px;
+  color: #6b7891;
+}
+
+@media (max-width: 650px) {
+  .source-stats {
+    grid-template-columns: 1fr;
+  }
+}
