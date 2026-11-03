@@ -33,15 +33,15 @@ Then open the URL that Vite prints (http://localhost:5173 by default).
 
 ### Scripts
 
-| Command | What it does |
-|---|---|
-| `npm run dev` | Dev server using your private data if `private-data/` exists, otherwise the demo data |
-| `npm run dev:demo` | Dev server forced to the demo data |
-| `npm run build` | Typecheck and production build (private data if present) |
-| `npm run build:demo` | Production build with demo data only; use this for anything you publish |
-| `npm run preview` | Serve the last build locally |
-| `npm run typecheck` | TypeScript check |
-| `npm test` | Unit tests (always run against the demo data) |
+| Command              | What it does                                                                          |
+| -------------------- | ------------------------------------------------------------------------------------- |
+| `npm run dev`        | Dev server using your private data if `private-data/` exists, otherwise the demo data |
+| `npm run dev:demo`   | Dev server forced to the demo data                                                    |
+| `npm run build`      | Typecheck and production build (private data if present)                              |
+| `npm run build:demo` | Production build with demo data only; use this for anything you publish               |
+| `npm run preview`    | Serve the last build locally                                                          |
+| `npm run typecheck`  | TypeScript check                                                                      |
+| `npm test`           | Unit tests (always run against the demo data)                                         |
 
 ## Data: private vs demo
 
@@ -54,13 +54,13 @@ The `@data` import alias resolves to `private-data/` when `private-data/expenseR
 
 To use your own data, create `private-data/` with the same five files as the demo folder:
 
-| File | Contents |
-|---|---|
-| `expenseRecords.json` | The Data Source rows: trip, date, category, description, SGD amount, status, evidence sources |
-| `trips.json` | Trip list: id, year, name, local flag, country codes for the flags |
-| `wiseTransactions.json` | Raw Wise statement rows shown in the Wise source register |
-| `merchantIcons.json` | Optional emoji per expense description for the timeline |
-| `notes.json` | Commentary text shown on the dashboard |
+| File                    | Contents                                                                                      |
+| ----------------------- | --------------------------------------------------------------------------------------------- |
+| `expenseRecords.json`   | The Data Source rows: trip, date, category, description, SGD amount, status, evidence sources |
+| `trips.json`            | Trip list: id, year, name, local flag, country codes for the flags                            |
+| `wiseTransactions.json` | Raw Wise statement rows shown in the Wise source register                                     |
+| `merchantIcons.json`    | Optional emoji per expense description for the timeline                                       |
+| `notes.json`            | Commentary text shown on the dashboard                                                        |
 
 See the demo files for the exact shape, and the types in `src/common/types/`.
 
@@ -82,6 +82,8 @@ The workflow sets `BASE_PATH` to `/<repository-name>/` automatically. To test th
 BASE_PATH=/<repository-name>/ npm run build:demo
 BASE_PATH=/<repository-name>/ npm run preview
 ```
+
+On Windows, set the variable first: `set BASE_PATH=/<repository-name>/` in Command Prompt, or `$env:BASE_PATH="/<repository-name>/"` in PowerShell.
 
 If you later use a custom domain at the root, drop the `BASE_PATH` environment variable from the workflow.
 
